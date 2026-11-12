@@ -13,7 +13,8 @@ variants_vs_reference	S288C family, after agreement between runs: S288C 155, FY4
 notes	Each strain carries its own k-mers, rebuilt from its own alleles around every site. Checked on 22 long-read assemblies of strains the panel takes from another source: 15 ranked first, 21 first or within the reported tie set; the miss is a DBVPG6044 stock disagreement between ScRAPdb and the 1011 matrix (db/README.md).
 caveat_BY4742	Inside the S288C family strains differ at a few to a few dozen panel sites, as much as two stocks of one strain drift apart. The SNP panel names the family; mating type and native markers name the strain, and the report lists every strain neither can exclude.
 caveat_read_length	k must stay well below the read length. The SRR26617475 run has 35 bp reads, where k=31 called 14 sites out of 35263 and k=21 called 34003 of 36694.
-marker_genes	URA3, HIS3, LEU2, TRP1, LYS2, ADE2, MET15, CAN1; coordinates from Ensembl, assembly R64-1-1
-marker_catalogue	290 assemblies, 2320 alleles, built 2026-10-23; 33 assemblies of other species excluded
+marker_genes	URA3, HIS3, LEU2, TRP1, LYS2, ADE2, MET15, CAN1, ARG4, LEU5; coordinates from Ensembl, assembly R64-1-1
+marker_catalogue	290 assemblies, 2320 alleles, built 2026-10-23; 33 assemblies of other species excluded. ARG4 and LEU5 (added 2026-11-12) have no catalogue alleles until build_marker_alleles.py is rerun: their missense forms are reported uncertain
 caveat_markers	An insertion that leaves the locus intact, a Ty1 as in ura3-52, needs reads crossing its junction; with reads under 50 bp it can be missed, and the report says so.
 mating_type_kmers	467 MATa and 495 MATalpha k-mers from HMRA1, HMRA2, MATALPHA1, MATALPHA2 (Ensembl R64-1-1), found in no other cassette; mating/mating_kmers.tsv
+mito_genes	COX1, COX2, COX3, COB, ATP6, ATP8, OLI1, VAR1, 15S and 21S rRNA, RPM1 and the tRNAs, exons only, from Ensembl R64-1-1; mito/mito_genes.tsv, read by the mtDNA (rho, growth on glycerol) test

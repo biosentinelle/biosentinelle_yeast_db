@@ -244,6 +244,20 @@ python3 bin/build_marker_alleles.py \
 Rebuild the marker catalogue after the loci, and after any change to the tool
 elements, since inserted sequence is named against them.
 
+ARG4 and LEU5 were added to `marker_genes.tsv` on 2026-11-12 and their loci
+built; the allele catalogue was not rebuilt then (the assemblies were not at
+hand), so it has no ARG4 or LEU5 allele yet. Until it is rerun, a loss of
+function in either gene is still called from the sequence, but a missense form
+is reported uncertain instead of being named by the catalogue.
+
+```
+# mitochondrial genes needed for respiration (exons only: the optional introns
+# of COX1, COB and the 21S rRNA differ between strains), for the rho test
+python3 bin/build_mito_genes.py \
+    --reference dataset/genome_references/test/S288C_reference_sequence_R64-1-1_20110203.fsa \
+    --out db/yeast/mito/mito_genes.tsv
+```
+
 The yeast panel is committed so the pipeline runs out of the box, and it is
 fully reproducible: `build_db.nf` regenerates it from the sources listed in
 `strains/strains.tsv`. Rebuild it whenever the strain list, the reference or

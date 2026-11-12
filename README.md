@@ -29,6 +29,7 @@ git clone https://github.com/biosentinelle/biosentinelle_db.git
 | *panels* | Strain SNP and indel panel: *panel_sites.tsv.gz* (sites and expected allele of each strain), *panel_kmers.tsv.gz* (k-mers of each allele), *panel_strains.tsv* (strains of the panel), *panel_report.txt* (build log). |
 | *strains* | Strain catalogue (*strains.tsv*) and strain name aliases (*aliases.tsv*). |
 | *mating* | MATa and MATalpha k-mers (*mating_kmers.tsv*). |
+| *mito* | Mitochondrial genes needed for respiration, exons only (*mito_genes.tsv*), for the mtDNA status (rho+, rho-, rho0) and growth on glycerol. |
 | *markers* | Native marker gene loci (*marker_loci.tsv*, *.bed*, *.fasta*), allele catalogue (*marker_alleles.tsv*), documented genotypes of laboratory strains (*documented_genotypes.tsv*) and repeats masked in the flanks (*marker_repeats.tsv*). |
 | *tools* | Laboratory tool element sequences (*tools.fasta*) and their description (*tools.tsv*). |
 

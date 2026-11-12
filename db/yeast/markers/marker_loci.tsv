@@ -7,3 +7,5 @@ LYS2__YBR115C	LYS2	YBR115C	LYS2	ref|NC_001134|	468747	474926	-	1000	5179	4179	13
 ADE2__YOR128C	ADE2	YOR128C	ADE2	ref|NC_001147|	563475	567191	-	1000	2716	1716	571	adenine auxotrophy, red colonies	https://rest.ensembl.org/lookup/id/YOR128C (Ensembl release 116, R64-1-1)
 MET15__YLR303W	MET15	YLR303W	MET17	ref|NC_001144|	731541	734876	+	1000	2335	1335	444	methionine auxotrophy, dark colonies on lead medium	https://rest.ensembl.org/lookup/id/YLR303W (Ensembl release 116, R64-1-1)
 CAN1__YEL063C	CAN1	YEL063C	CAN1	ref|NC_001137|	30693	34466	-	1000	2773	1773	590	canavanine resistance	https://rest.ensembl.org/lookup/id/YEL063C (Ensembl release 116, R64-1-1)
+ARG4__YHR018C	ARG4	YHR018C	ARG4	ref|NC_001140|	139010	142402	-	1000	2392	1392	463	arginine auxotrophy	https://rest.ensembl.org/lookup/id/YHR018C (Ensembl release 116, R64-1-1)
+LEU5__YHR002W	LEU5	YHR002W	LEU5	ref|NC_001140|	107811	110885	+	1000	2074	1074	357	leucine bradytroph, slow growth on non-fermentable carbon (mitochondrial CoA carrier)	https://rest.ensembl.org/lookup/id/YHR002W (Ensembl release 116, R64-1-1)
