@@ -2,7 +2,7 @@ nextflow.enable.dsl=2
 /*
 #########################################################################
 ##                                                                     ##
-##     build_db.nf of biosentinelle_db                                 ##
+##     build_db.nf of biosentinelle_yeast_db                           ##
 ##                                                                     ##
 ##     Builds the strain identity database. Run it when the set of     ##
 ##     reference strains changes, not for every sample.                ##

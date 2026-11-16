@@ -211,7 +211,7 @@ python3 bin/build_strain_catalog.py \
     --sgd-dir dataset/sgd_strains \
     --exclude "<the 33 other-species assemblies of marker_alleles_report.txt>,scrapdb:BY,scrapdb:S288C,scrapdb:SGDref,scrapdb:CENPK1137D" \
     --aliases db/yeast/strains/aliases.tsv \
-    --path-map "dataset=/mnt/c/Users/gmillot/Documents/Git_projects/biosentinelle_db/dataset" \
+    --path-map "dataset=/home/gmillot/Git_projects/biosentinelle/biosentinelle_yeast_db/dataset" \
     --out db/yeast/strains/strains.tsv
 
 # strain panel: assemblies aligned, read runs called, then every strain at once

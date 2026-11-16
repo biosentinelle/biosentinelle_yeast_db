@@ -1,11 +1,11 @@
-# biosentinelle_db
+# biosentinelle_yeast_db
 
 Strain identity database of [biosentinelle](https://github.com/biosentinelle/biosentinelle), and the workflow that builds it.
 
-biosentinelle (*main.nf*) only reads this database: nothing has to be built to analyze a sample. Clone this repository next to biosentinelle, so that its default `db_path` (`$projectDir/../biosentinelle_db/db`) finds it:
+biosentinelle (*main.nf*) only reads this database: nothing has to be built to analyze a sample. Clone this repository next to biosentinelle, so that its default `db_path` (`$projectDir/../biosentinelle_yeast_db/db`) finds it:
 
 <pre>
-git clone https://github.com/biosentinelle/biosentinelle_db.git
+git clone https://github.com/biosentinelle/biosentinelle_yeast_db.git
 </pre>
 
 <br><br>
